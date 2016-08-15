@@ -1,0 +1,23 @@
+{
+  "name": "allons-y-mvw-injection",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeCorico/allons-y-mvw-injection.git"
+  },
+  "author": "CodeCorico <hello@codecorico.com>",
+  "bugs": {
+    "url": "https://github.com/CodeCorico/allons-y-mvw-injection/issues"
+  },
+  "homepage": "https://github.com/CodeCorico/allons-y-mvw-injection",
+  "engines": {
+    "node": ">=4.1",
+    "npm": ">=3.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mvw-injection": "^0.2.4"
+  }
+}
