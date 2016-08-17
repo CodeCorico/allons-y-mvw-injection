@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = ['$gulp', function($gulp) {
+module.exports = function($gulp) {
 
   $gulp.task('mvwInjection', function(done) {
     $gulp.src([
@@ -19,4 +19,4 @@ module.exports = ['$gulp', function($gulp) {
   });
 
   return 'mvwInjection';
-}];
+};
