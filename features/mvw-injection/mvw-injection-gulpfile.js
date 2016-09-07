@@ -14,7 +14,7 @@ module.exports = function($gulp) {
       'node_modules/mvw-injection/dist/mvvm-injection.min.js',
       'node_modules/mvw-injection/dist/mvvm-injection.min.js.map'
     ])
-      .pipe($gulp.dest('./public/vendor'))
+      .pipe($gulp.dist('vendor'))
       .on('end', done);
   });
 
